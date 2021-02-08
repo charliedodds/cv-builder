@@ -1,0 +1,26 @@
+.EditButton {
+  background-color: blue;
+  color: white;
+  position: absolute;
+  bottom: 15px;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 2.5rem;
+  font-family: inherit;
+  padding: 1rem 2rem;
+  border-radius: 2.5rem;
+  border: 0;
+  cursor: pointer;
+  transition: 100ms;
+  box-shadow: 0 4px darkblue;
+}
+
+.EditButton:hover {
+  bottom: 13px;
+  box-shadow: 0 2px darkblue;
+}
+
+.EditButton:active {
+  bottom: 11px;
+  box-shadow: 0 0;
+}
