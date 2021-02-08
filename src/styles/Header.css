@@ -1,0 +1,23 @@
+.Header,
+.Header-form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  margin-top: 1rem;
+}
+
+.Header {
+  font-size: 1.5rem;
+}
+
+.Header-name,
+.Header-info {
+  margin: 0.5rem 0;
+}
+
+.Header-info {
+  font-weight: 400;
+  font-size: 2rem;
+}

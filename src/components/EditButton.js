@@ -2,9 +2,9 @@ import React from 'react';
 
 import '../styles/EditButton.css';
 
-const EditButton = (props) => {
+const EditButton = ({ onClick }) => {
   return (
-    <button onClick={props.onClick} className='EditButton'>
+    <button onClick={onClick} className='EditButton'>
       Edit
     </button>
   );

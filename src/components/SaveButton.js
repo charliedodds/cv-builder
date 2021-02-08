@@ -2,9 +2,9 @@ import React from 'react';
 
 import '../styles/SaveButton.css';
 
-const SaveButton = (props) => {
+const SaveButton = ({ onClick }) => {
   return (
-    <button onClick={props.onClick} className='SaveButton'>
+    <button onClick={onClick} className='SaveButton'>
       Save
     </button>
   );
