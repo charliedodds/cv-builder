@@ -64,14 +64,14 @@ const NewJobForm = ({ jobs, setJobs }) => {
         id: uuidv4(),
       },
     ]);
-    setNewTitle('');
-    setNewCompany('');
-    setNewCompanyDescription('');
-    setNewJobResponsibility1('');
-    setNewJobResponsibility2('');
-    setNewJobResponsibility3('');
-    setNewStartDate('');
-    setNewEndDate('');
+    setNewTitle('Title');
+    setNewCompany('Company');
+    setNewCompanyDescription('Brief company descriptio');
+    setNewJobResponsibility1('First responsibility');
+    setNewJobResponsibility2('Second responsibility');
+    setNewJobResponsibility3('Third responsibility');
+    setNewStartDate('YYYY');
+    setNewEndDate('YYYY');
   };
 
   return (

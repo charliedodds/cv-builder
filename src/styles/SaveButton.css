@@ -2,7 +2,7 @@
   background-color: green;
   color: white;
   position: fixed;
-  bottom: 15px;
+  bottom: 10px;
   left: 50%;
   transform: translate(-50%, -50%);
   font-size: 1.5rem;
@@ -17,11 +17,11 @@
 }
 
 .SaveButton:hover {
-  bottom: 13px;
+  bottom: 8px;
   box-shadow: 0 2px darkgreen;
 }
 
 .SaveButton:active {
-  bottom: 11px;
+  bottom: 6px;
   box-shadow: 0 0;
 }
