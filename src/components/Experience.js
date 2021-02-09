@@ -38,7 +38,7 @@ const Experience = ({ isEditing }) => {
           handleDeleteClick={() => deleteJob(job.id)}
         />
       ))}
-      {isEditing ? <NewJobForm /> : null}
+      {isEditing ? <NewJobForm jobs={jobs} setJobs={setJobs} /> : null}
     </section>
   );
 };
