@@ -8,23 +8,51 @@ const Header = ({ isEditing }) => {
   const [email, setEmail] = useState('Email');
   const [address, setAddress] = useState('Address');
 
-  const nameInput = document.querySelector('#nameInput');
-  const mobileInput = document.querySelector('#mobileInput');
-  const emailInput = document.querySelector('#emailInput');
-  const addressInput = document.querySelector('#addressInput');
+  const handleNameChange = (e) => {
+    setName(e.target.value);
+  };
+  const handleMobileChange = (e) => {
+    setMobile(e.target.value);
+  };
+  const handleEmailChange = (e) => {
+    setEmail(e.target.value);
+  };
+  const handleAddressChange = (e) => {
+    setAddress(e.target.value);
+  };
 
   return (
     <section className='Header'>
       {isEditing ? (
         <form className='Header-form'>
           <label htmlFor='nameInput'>Name</label>
-          <input id='nameInput' value={name} />
+          <input
+            id='nameInput'
+            value={name}
+            onChange={handleNameChange}
+            className='Header-input'
+          />
           <label htmlFor='mobileInput'>Mobile</label>
-          <input id='mobileInput' value={mobile} />
+          <input
+            id='mobileInput'
+            value={mobile}
+            onChange={handleMobileChange}
+            className='Header-input'
+          />
           <label htmlFor='emailInput'>Email</label>
-          <input id='emailInput' value={email} />
+          <input
+            id='emailInput'
+            value={email}
+            onChange={handleEmailChange}
+            className='Header-input'
+          />
           <label htmlFor='addressInput'>Address</label>
-          <input id='addressInput' value={address} />
+          <input
+            id='addressInput'
+            value={address}
+            onChange={handleAddressChange}
+            className='Header-input'
+          />
         </form>
       ) : (
         <>

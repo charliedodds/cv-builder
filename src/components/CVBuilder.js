@@ -4,6 +4,8 @@ import Header from './Header';
 import SaveButton from './SaveButton';
 import EditButton from './EditButton';
 
+import '../styles/CVBuilder.css';
+
 function CVBuilder() {
   const [isEditing, setIsEditing] = useState(false);
 
