@@ -1,0 +1,21 @@
+.Intro {
+  font-size: 1.3rem;
+  font-weight: 300;
+  margin: 0 1.5rem;
+}
+
+.Intro-form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.Intro-input,
+.Intro-para {
+  line-height: 125%;
+}
+
+.Intro-input {
+  margin-top: 0.25rem;
+  max-width: 95%;
+}

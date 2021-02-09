@@ -1,0 +1,40 @@
+.Education-container,
+.Education-form {
+  display: flex;
+  justify-content: space-between;
+}
+.Education-container {
+  padding: 1.5rem;
+  font-size: 1.2rem;
+}
+
+.Education-title {
+  margin: 1rem 1.5rem 0;
+  padding-bottom: 0.5rem;
+  border-bottom: 1px solid #00000022;
+  font-size: 1.5rem;
+}
+
+.Education-form {
+  margin: 1rem 3rem;
+}
+
+.Education-input {
+  width: 90%;
+  margin: 0.125rem 0 0.4rem;
+}
+
+.Education-subject-details,
+.Education-date-details {
+  width: 50%;
+}
+
+.Education-uni,
+.Education-subject,
+.Education-dates {
+  margin: 0 0 1rem;
+}
+
+.Education-dates {
+  text-align: right;
+}
