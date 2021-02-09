@@ -28,3 +28,10 @@ textarea {
   font-size: inherit;
   font-family: inherit;
 }
+
+@media print {
+  .SaveButton,
+  .EditButton {
+    display: none !important;
+  }
+}
