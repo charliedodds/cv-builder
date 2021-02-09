@@ -33,6 +33,7 @@
 .Education-subject,
 .Education-dates {
   margin: 0 0 1rem;
+  font-size: inherit;
 }
 
 .Education-dates {

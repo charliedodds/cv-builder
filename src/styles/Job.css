@@ -1,0 +1,38 @@
+.Job {
+  display: flex;
+  justify-content: space-between;
+  padding: 1.5rem;
+  font-size: 1.2rem;
+}
+
+.Job-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: flex-end;
+}
+
+.Job-title,
+.Job-company,
+.Job-description,
+.Job-dates,
+.Job-list {
+  margin: 0 0 0.5rem;
+  font-size: inherit;
+}
+
+.Job-list {
+  padding-left: 2rem;
+}
+
+.Job-delete {
+  cursor: pointer;
+  color: rgb(200, 0, 0);
+  background: 0;
+  border: 0;
+  padding: 0;
+  margin: 0;
+  font-size: 1.8rem;
+  width: 40px;
+  height: 40px;
+}

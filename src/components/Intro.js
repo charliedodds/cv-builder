@@ -4,7 +4,7 @@ import '../styles/Intro.css';
 
 const Intro = ({ isEditing }) => {
   const [intro, setIntro] = useState(
-    'Intro - write some brief, general information about yourself, highlighting your skills and why you want the role.'
+    'Intro - write some brief, general information about yourself, highlighting your skills and why you fit the role.'
   );
 
   const handleIntroChange = (e) => {

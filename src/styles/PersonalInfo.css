@@ -1,0 +1,26 @@
+.PersonalInfo {
+  font-size: 1.3rem;
+  font-weight: 300;
+  margin: 0 1.5rem;
+}
+
+.PersonalInfo-form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.PersonalInfo-input,
+.PersonalInfo-para {
+  line-height: 125%;
+}
+
+.PersonalInfo-input {
+  margin-top: 0.25rem;
+  max-width: 95%;
+  padding: 0.5rem;
+}
+
+.PersonalInfo-para {
+  margin: 0;
+}
