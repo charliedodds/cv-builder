@@ -1,12 +1,12 @@
 .CVBuilder {
-  margin-bottom: 8rem;
+  margin: 0 auto 8rem;
   max-width: 100%;
+  overflow-x: hidden;
 }
 
 @media screen and (min-width: 1023.98px) {
   .CVBuilder {
     max-width: 90%;
-    margin: 0 auto 8rem;
   }
 }
 
