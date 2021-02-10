@@ -13,7 +13,6 @@
   cursor: pointer;
   transition: 100ms;
   box-shadow: 0 4px darkgreen;
-  outline: 0;
 }
 
 .SaveButton:hover {

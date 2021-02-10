@@ -4,7 +4,7 @@ import { v4 as uuidv4 } from 'uuid';
 import '../styles/NewJobForm.css';
 
 const NewJobForm = ({ jobs, setJobs }) => {
-  const [newTitle, setNewTitle] = useState('Title');
+  const [newTitle, setNewTitle] = useState('Job Title');
   const [newCompany, setNewCompany] = useState('Company');
   const [newCompanyDescription, setNewCompanyDescription] = useState(
     'Brief company description'
@@ -64,7 +64,7 @@ const NewJobForm = ({ jobs, setJobs }) => {
         id: uuidv4(),
       },
     ]);
-    setNewTitle('Title');
+    setNewTitle('Job Title');
     setNewCompany('Company');
     setNewCompanyDescription('Brief company descriptio');
     setNewJobResponsibility1('First responsibility');
