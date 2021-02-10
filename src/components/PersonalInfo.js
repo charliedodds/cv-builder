@@ -21,7 +21,7 @@ const PersonalInfo = ({ isEditing }) => {
             value={personalInfo}
             className='PersonalInfo-input'
             rows='5'
-            cols='30'
+            cols='45'
             onChange={handlePersonalInfoChange}
           ></textarea>
         </form>

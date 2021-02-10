@@ -22,7 +22,7 @@ const Header = ({ isEditing }) => {
   };
 
   return (
-    <section className='Header'>
+    <header className='Header'>
       {isEditing ? (
         <form className='Header-form'>
           <label htmlFor='nameInput'>Name</label>
@@ -62,7 +62,7 @@ const Header = ({ isEditing }) => {
           <h2 className='Header-info'>{address}</h2>
         </>
       )}
-    </section>
+    </header>
   );
 };
 

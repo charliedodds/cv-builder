@@ -2,3 +2,34 @@
   margin-bottom: 8rem;
   max-width: 100%;
 }
+
+@media screen and (min-width: 1023.98px) {
+  .CVBuilder {
+    max-width: 90%;
+    margin: 0 auto 8rem;
+  }
+}
+
+@media screen and (min-width: 1439.98px) {
+  .CVBuilder {
+    max-width: 70%;
+  }
+}
+
+@media screen and (min-width: 1559.98px) {
+  .CVBuilder {
+    max-width: 60%;
+  }
+}
+
+@media screen and (min-width: 1979.98px) {
+  .CVBuilder {
+    max-width: 50%;
+  }
+}
+
+@media screen and (min-width: 2559.98px) {
+  .CVBuilder {
+    max-width: 40%;
+  }
+}

@@ -21,7 +21,7 @@ const Intro = ({ isEditing }) => {
             value={intro}
             className='Intro-input'
             rows='8'
-            cols='30'
+            cols='45'
             onChange={handleIntroChange}
           ></textarea>
         </form>

@@ -1,6 +1,6 @@
 .NewJobForm {
   display: flex;
-  width: 80%;
+  justify-content: space-around;
   margin: 1rem 3rem;
 }
 
